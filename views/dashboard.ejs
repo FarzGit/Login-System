@@ -1,0 +1,27 @@
+<!-- <%-include('header')-%>
+
+<div class="text-center center-div mt-5" id="login">
+    <div class="container w-25 border py-5 mt-5">
+        <h3>Successfully logedin [name]</h3>
+        <h5><%=locals.user?user:"User"%></h5>
+        <a href="/route/logout">Logout</a>
+    </div>
+</div>
+
+
+<%-include('footer')-%> -->
+
+
+
+<%-include('header')-%>
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="dashboard-container text-center" id="dash">
+      <h2 style="color: rgb(0, 0, 0);">Welcome to the Dashboard</h2>
+      <p style="color: rgb(0, 0, 0);">You are successfully logged in!</p>
+      <a href="/route/logout" class="btn btn-danger" >Log Out</a>
+    </div>
+  </div>
+
+
+<%-include('footer')-%>
